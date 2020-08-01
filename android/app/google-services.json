@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "949840260435",
+    "firebase_url": "https://community-health-worker-446f2.firebaseio.com",
+    "project_id": "community-health-worker-446f2",
+    "storage_bucket": "community-health-worker-446f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949840260435:android:9c469401b9c026ab9945a6",
+        "android_client_info": {
+          "package_name": "com.example.samchw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949840260435-g4t5617qtemte2ae85lpfgnt2ok44cqg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAG6_Hk2dzp-K32dTfdgD07lELujwBTPt0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949840260435-g4t5617qtemte2ae85lpfgnt2ok44cqg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
