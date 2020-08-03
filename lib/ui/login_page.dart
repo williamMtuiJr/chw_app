@@ -538,7 +538,7 @@ class _LoginPageState extends State<LoginPage>
                           controller: signupEmailController,
                           keyboardType: TextInputType.emailAddress,
                           onChanged: (value) {
-                            login_email = value;
+                            email = value;
                           },
                           style: TextStyle(
                               fontFamily: "WorkSansSemiBold",
@@ -699,9 +699,10 @@ class _LoginPageState extends State<LoginPage>
                             'full_name': fullname,
                             'user_id': newUser.user.uid,
                           });
+                          navigateToHomePage(context);
 
-                          Navigator.push(context,
-                              MaterialPageRoute(builder: (context) => Refer()));
+//                          Navigator.push(context,
+//                              MaterialPageRoute(builder: (context) => Refer()));
                         }
                       }
                     } catch (e) {
